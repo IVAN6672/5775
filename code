@@ -2,11 +2,20 @@ import random
 import telebot
 
 token = (token)
-
+randomanim = [wolf, cat, dog, raccon]
+ra = random.choise[
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
   bot.reaply_to(message, "hi there have any commands start - start bot")
 
 
-
+@bot.message_handler(commands=['animallgame'])
+def send_welcom(message):
+bot.reaply_to(message, okay your animal is, ra
+if ra == wofl:
+  print('wolf - 50% chanse')
+if ra == cat:
+  print('cat - 30% chanse')
+if ra == raccon:
+  print('raccon - 1% chanse)
 bot.poling()
